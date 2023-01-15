@@ -1,0 +1,103 @@
+.kur-btn {
+    color: white;
+    background-color: rgb(68, 210, 111);
+    font-size: 17px;
+    border-color: rgb(68, 210, 111);
+    border-radius: 7px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, cursor 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.kur-btn:hover {
+    color: white;
+    background-color: rgb(65, 186, 101);
+    border-color: rgb(65, 186, 101);
+}
+
+.btn-check:focus+.kur-btn,
+.kur-btn:focus {
+    color: white;
+    background-color: rgb(68, 210, 111);
+    border-color: rgb(68, 210, 111);
+    box-shadow: 0 0 0 0.25rem rgb(65, 186, 101);
+}
+
+.btn-check:checked+.kur-btn,
+.btn-check:active+.kur-btn,
+.kur-btn:active,
+.kur-btn.active,
+.show>.kur-btn.dropdown-toggle {
+    color: white;
+    background-color: rgb(68, 210, 111);
+    border-color: rgb(68, 210, 111);
+}
+
+.btn-check:checked+.kur-btn:focus,
+.btn-check:active+.kur-btn:focus,
+.kur-btn:active:focus,
+.kur-btn.active:focus,
+.show>.kur-btn.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgb(65, 186, 101);
+}
+
+.kur-btn:disabled,
+.kur-btn.disabled {
+    color: white;
+    background-color: rgb(68, 210, 111);
+    border-color: rgb(68, 210, 111);
+}
+
+.kur-div1 {
+    border-color: rgb(68, 210, 111);
+    border-width: 3px;
+    border-radius: 10px;
+    box-shadow: lightblue 3px 3px 7px 5px;
+}
+
+.kur-box {
+    border-color: rgb(68, 210, 111);
+    border-width: 3px;
+    border-style: solid;
+}
+
+.kur-btn2 {
+    color: rgb(68, 210, 111);
+    background-color: white;
+    display: inline-block;
+    margin-left: -12px;
+    width: 278px;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 20px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, cursor 0.3s ease-in-out;
+}
+
+.kur-btn2:hover {
+    color: white;
+    background-color: rgb(68, 210, 111);
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("Fonts/QUICKSAND.TTF");
+}
+
+@font-face {
+    font-family: "Honey Script";
+    src: url("Fonts/HONEYSCRIPT-LIGHT.TTF");
+}
+
+* {
+    font-family: "Quicksand";
+}
+
+.kur-img-hgt {
+    height: 455px;
+}
+
+.border-radius {
+    border-radius: 7px;
+}
